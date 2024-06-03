@@ -1,0 +1,56 @@
+[
+    {
+        "code": "EGP_MON_001",
+        "name": "Deben de cobre",
+        "description": "Pieza de cobre con un peso estandarizado para el trueque.",
+        "rarity": "C",
+        "parts": 1,
+        "points": 1,
+        "type": "MON"
+    },
+    {
+        "code": "EGP_MON_002",
+        "name": "Deben de plata",
+        "description": "Pieza de plata con un peso estandarizado para el trueque.",
+        "rarity": "C",
+        "parts": 1,
+        "points": 1,
+        "type": "MON"
+    },
+    {
+        "code": "EGP_CUE_001",
+        "name": "Cuenta de lapisl\u00e1zuli",
+        "description": "Lapisl\u00e1zuli tallado como cuenta para un collar o decoraci\u00f3n.",
+        "rarity": "C",
+        "parts": 1,
+        "points": 1,
+        "type": "CUE"
+    },
+    {
+        "code": "EGP_JOY_001",
+        "name": "Anj",
+        "description": "S\u00edmbolo de la vida ampliamente utilizado como talism\u00e1n protector.",
+        "rarity": "I",
+        "parts": 2,
+        "points": 2,
+        "type": "JOY"
+    },
+    {
+        "code": "EGP_JOY_002",
+        "name": "Pluma de Ma'at",
+        "description": "S\u00edmbolo protector de la verdad y la justicia.",
+        "rarity": "R",
+        "parts": 3,
+        "points": 5,
+        "type": "JOY"
+    },
+    {
+        "code": "EGP_JOY_003",
+        "name": "Pilar Dyed",
+        "description": "S\u00edmbolo de estabilidad utilizado como amuleto protector.",
+        "rarity": "I",
+        "parts": 3,
+        "points": 2,
+        "type": "JOY"
+    }
+]

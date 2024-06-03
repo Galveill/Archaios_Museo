@@ -1,0 +1,25 @@
+
+span.names {
+	font-size: 0.8em;
+	margin-left: 1em;
+}
+
+div.info-group {
+	width: 10em;
+	border: 1px solid var(--treasure-border);
+	margin: 5px;
+	background-color: var(--treasure-color);
+	color: var(--treasure-text);
+}
+
+.info-group .band {
+	margin-left: -12px;
+	margin-right: -12px;
+	width: calc(10em - 2px);
+}
+
+#exposition + .band {
+	margin-left: -12px;
+	margin-right: -12px;
+	width: calc(100% + 24px);
+}
