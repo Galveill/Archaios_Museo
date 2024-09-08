@@ -21,10 +21,12 @@
 
 			foreach (RegionsHelper::REGIONS as $reg => $data) {
 				$band = '<div class="band" style="background-image: url(/Museo/assets/img/' . $reg . '/C.png)"></div>';
+				$exp = '<div class="exp-band ' . (array_key_exists("exp", $data) ? $data['exp'] . '-back' : '') . '"></div>';
 				$menu .= 
 				'<div class="nav-item' . ($reg == $actual ? ' active' : '') . '">'.
 					$band .
 					'<a class="nav-link' . ($reg == $actual ? ' active' : '') . '" href="/Museo/' . $reg . '">' . $data["name"] . '</a>' .
+					(array_key_exists("exp", $data) ? $exp : '') .
 				'</div>';
 			}
 

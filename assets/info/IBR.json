@@ -81,6 +81,15 @@
         "type": "JOY"
     },
     {
+        "code": "IBR_JOY_008",
+        "name": "T\u00e9sera de hospitalidad",
+        "description": "Pieza met\u00e1lica con forma de janal\u00ed que simbolizaba un pacto de hospitalidad entre grupos.",
+        "rarity": "R",
+        "parts": 6,
+        "points": 6,
+        "type": "JOY"
+    },
+    {
         "code": "IBR_CER_001",
         "name": "K\u00e1lathos \u00cdbero",
         "description": "Vasija recta con forma de sombrero de copa que se usaba como recipiente para el transporte de mercanc\u00eda.",
@@ -126,6 +135,15 @@
         "type": "CER"
     },
     {
+        "code": "IBR_CER_006",
+        "name": "Vaso campaniforme",
+        "description": "Cer\u00e1mica arcaica con forma de campana y decorada con diversas l\u00edneas talladas.",
+        "rarity": "I",
+        "parts": 20,
+        "points": 2,
+        "type": "CER"
+    },
+    {
         "code": "IBR_EQP_001",
         "name": "Falcata",
         "description": "La espada \u00edbera por escelencia. Filo de hierro con una caracter\u00edstica curvatura y mango con forma de animal.",
@@ -162,13 +180,13 @@
         "type": "EQP"
     },
     {
-        "code": "IBR_FRA_001",
+        "code": "IBR_EST_001",
         "name": "Estela funeraria",
-        "description": "Estela de piedra tallada con inscripciones que pon\u00eda en los enterramientos nobles.",
+        "description": "Estela de piedra tallada con inscripciones que se pon\u00eda en los enterramientos nobles.",
         "rarity": "I",
         "parts": 48,
         "points": 5,
-        "type": "FRA"
+        "type": "EST"
     },
     {
         "code": "IBR_TES_001",

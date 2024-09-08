@@ -11,7 +11,7 @@
 		["code" => "GRC_TES_002", "name" => "Mosaico geométrico", "description" => "Mosaico geométrico en dos colores, típico de los primeros siglos de Grecia.", "rarity" => "Común", "parts" => 625, "points" => 1],
 		["code" => "GRC_CUE_001", "name" => "Cuenta de vidrio", "description" => "Pequeños trozos de vidrio pulido que se utilizaban en collares y pulseras.", "rarity" => "Común", "parts" => 1, "points" => 1],
 		["code" => "GRC_CUE_002", "name" => "Cuenta de cerámica", "description" => "Pequeños trozos de cerámica pintada a mano que se utilizaban en collares y pulseras.", "rarity" => "Común", "parts" => 1, "points" => 1],
-		["code" => "GRC_JOY_001", "name" => "Fíbula", "description" => "Hebilla para sujetar la ropa similar a un imperdible.", "rarity" => "Infrecuente", "parts" => 3, "points" => 2],
+		["code" => "GRC_JOY_001", "name" => "Fíbula omega", "description" => "Hebilla para sujetar la ropa similar a un imperdible.", "rarity" => "Infrecuente", "parts" => 3, "points" => 2],
 		["code" => "GRC_JOY_002", "name" => "Anillos", "description" => "Anillos de oro, plata y bronce adornados con grabados e incrustaciones de gemas.", "rarity" => "Raro", "parts" => 4, "points" => 5],
 		["code" => "GRC_JOY_003", "name" => "Brazal", "description" => "Brazal de oro decorado con filigranas y  gemas.", "rarity" => "Infrecuente", "parts" => 7, "points" => 3],
 		["code" => "GRC_CER_001", "name" => "Ánfora de Nola", "description" => "Ánfora típica de la región de Nola con un cuello más largo y estrecho.", "rarity" => "Infrecuente", "parts" => 34, "points" => 2],
@@ -41,16 +41,18 @@
 		["code" => "IBR_JOY_005", "name" => "Torques Ártabro", "description" => "Torques de oro y plata con remates piriformes típico de Gallaecia.", "rarity" => "Infrecuente", "parts" => 5, "points" => 3],
 		["code" => "IBR_JOY_006", "name" => "Torques de carrete", "description" => "Torques de oro con remates en forma de carrete típico de Gallaecia.", "rarity" => "Raro", "parts" => 5, "points" => 5],
 		["code" => "IBR_JOY_007", "name" => "Torques castrense", "description" => "Torques de oro con filigrana decorativa y terminado en formas trapezoidales. Típico de los castros de Gallaecia.", "rarity" => "Raro", "parts" => 5, "points" => 6],
+		["code" => "IBR_JOY_008", "name" => "Tésera de hospitalidad", "description" => "Pieza metálica con forma de janalí que simbolizaba un pacto de hospitalidad entre grupos.", "rarity" => "Raro", "parts" => 6, "points" => 6],
 		["code" => "IBR_CER_001", "name" => "Kálathos Íbero", "description" => "Vasija recta con forma de sombrero de copa que se usaba como recipiente para el transporte de mercancía.", "rarity" => "Común", "parts" => 25, "points" => 1],
 		["code" => "IBR_CER_002", "name" => "Urna de orejetas", "description" => "Urna emblemática de la cerámica ibérica utilizada como urna funeraria gracias a su cierre hermético.", "rarity" => "Común", "parts" => 21, "points" => 1],
 		["code" => "IBR_CER_003", "name" => "Vaso bitrocónico", "description" => "Urna funearia encontrada en los túmulos de la Edad de Bronce.", "rarity" => "Infrecuente", "parts" => 14, "points" => 2],
 		["code" => "IBR_CER_004", "name" => "Olla castreña", "description" => "Olla amplia adornada con relieves geométricos típica de los castros del noroeste de la península.", "rarity" => "Infrecuente", "parts" => 20, "points" => 3],
 		["code" => "IBR_CER_005", "name" => "Ánfora ibérica", "description" => "Ánfora ibérica con influencia fenicia usada para el transporte de líquidos.", "rarity" => "Común", "parts" => 24, "points" => 1],
+		["code" => "IBR_CER_006", "name" => "Vaso campaniforme", "description" => "Cerámica arcaica con forma de campana y decorada con diversas líneas talladas.", "rarity" => "Infrecuente", "parts" => 20, "points" => 2],
 		["code" => "IBR_EQP_001", "name" => "Falcata", "description" => "La espada íbera por escelencia. Filo de hierro con una característica curvatura y mango con forma de animal.", "rarity" => "Infrecuente", "parts" => 23, "points" => 4],
 		["code" => "IBR_EQP_002", "name" => "Espada de antenas", "description" => "Espada celtíbera de la Edad de Bronce con un característico mango terminado en dos espirales o antenas.", "rarity" => "Infrecuente", "parts" => 25, "points" => 3],
 		["code" => "IBR_EQP_003", "name" => "Soliferrum", "description" => "Lanza íbera hecha de hierro en su totalidad para una alta penetración de las protecciones del enemigo.", "rarity" => "Raro", "parts" => 10, "points" => 6],
 		["code" => "IBR_EQP_004", "name" => "Cardiophylax", "description" => "Armadura primitiva hecha de una plancha de bronze que cubre el corazón y unas correas de cuero que la sujetan.", "rarity" => "Raro", "parts" => 8, "points" => 6],
-		["code" => "IBR_FRA_001", "name" => "Estela funeraria", "description" => "Estela de piedra tallada con inscripciones que ponía en los enterramientos nobles.", "rarity" => "Infrecuente", "parts" => 48, "points" => 5]
+		["code" => "IBR_EST_001", "name" => "Estela funeraria", "description" => "Estela de piedra tallada con inscripciones que se ponía en los enterramientos nobles.", "rarity" => "Infrecuente", "parts" => 48, "points" => 5]
 	];
 	excelToInfo($iberia);
 
@@ -84,15 +86,67 @@
 	];
 	excelToInfo($rome);
 
-	$egipt = [
+	$egypt = [
 		["code" => "EGP_MON_001", "name" => "Deben de cobre", "description" => "Pieza de cobre con un peso estandarizado para el trueque.", "rarity" => "Común", "parts" => 1, "points" => 1],
 		["code" => "EGP_MON_002", "name" => "Deben de plata", "description" => "Pieza de plata con un peso estandarizado para el trueque.", "rarity" => "Común", "parts" => 1, "points" => 1],
 		["code" => "EGP_CUE_001", "name" => "Cuenta de lapislázuli", "description" => "Lapislázuli tallado como cuenta para un collar o decoración.", "rarity" => "Común", "parts" => 1, "points" => 1],
 		["code" => "EGP_JOY_001", "name" => "Anj", "description" => "Símbolo de la vida ampliamente utilizado como talismán protector.", "rarity" => "Infrecuente", "parts" => 2, "points" => 2],
 		["code" => "EGP_JOY_002", "name" => "Pluma de Ma'at", "description" => "Símbolo protector de la verdad y la justicia.", "rarity" => "Raro", "parts" => 3, "points" => 5],
-		["code" => "EGP_JOY_003", "name" => "Pilar Dyed", "description" => "Símbolo de estabilidad utilizado como amuleto protector.", "rarity" => "Infrecuente", "parts" => 3, "points" => 2]
+		["code" => "EGP_JOY_003", "name" => "Pilar Dyed", "description" => "Símbolo de estabilidad utilizado como amuleto protector.", "rarity" => "Infrecuente", "parts" => 3, "points" => 2],
+		["code" => "EGP_JOY_004", "name" => "Udyat", "description" => "El Ojo de Horus, símbolo solar de orden y completitud.", "rarity" => "Infrecuente", "parts" => 5, "points" => 3],
+		["code" => "EGP_JOY_005", "name" => "Ureo", "description" => "Emblema protector de los faraones con forma de cobra erguida.", "rarity" => "Raro", "parts" => 6, "points" => 6],
+		["code" => "EGP_JOY_006", "name" => "Escarabeo", "description" => "Símbolo de resurrección, es el amuleto más común del Antiguo Egipto.", "rarity" => "Infrecuente", "parts" => 2, "points" => 2],
+		["code" => "EGP_JOY_007", "name" => "Wadj", "description" => "Amuleto con forma de pilar de papiro que representaba la juventud.", "rarity" => "Infrecuente", "parts" => 3, "points" => 2],
+		["code" => "EGP_CER_001", "name" => "Ánfora de vino", "description" => "Ánfora con forma puntiaguda para guardar el vino.", "rarity" => "Común", "parts" => 14, "points" => 1],
+		["code" => "EGP_CER_002", "name" => "Vasija del Nilo", "description" => "Vasija creada con arcilla roja y limo negro del Nilo.", "rarity" => "Común", "parts" => 14, "points" => 1],
+		["code" => "EGP_CER_003", "name" => "Vasija de marga", "description" => "Vasija creada con marga, dándole un acabado arenoso.", "rarity" => "Infrecuente", "parts" => 12, "points" => 3],
+		["code" => "EGP_CER_004", "name" => "Vasija de fondo blanco", "description" => "Cerámica fina pintada de blanco sobre la que dibujan figuras y símbolos.", "rarity" => "Infrecuente", "parts" => 18, "points" => 1],
+		["code" => "EGP_CER_005", "name" => "Ushebti", "description" => "Pequeña estatua dejada como ofrenda en las tumbas para hacer de sirviente en la otra vida.", "rarity" => "Raro", "parts" => 12, "points" => 5],
+		["code" => "EGP_EQP_001", "name" => "Khopesh", "description" => "Espada de hoja curva con forma de C.", "rarity" => "Infrecuente", "parts" => 18, "points" => 4],
+		["code" => "EGP_EQP_002", "name" => "Shenti", "description" => "Falda de lino utilizada como prenda básica por los hombres.", "rarity" => "Infrecuente", "parts" => 15, "points" => 3],
+		["code" => "EGP_EQP_003", "name" => "Kalasiris", "description" => "Prenda de lino usada por las mujeres de todas las clases sociales.", "rarity" => "Infrecuente", "parts" => 29, "points" => 3],
+		["code" => "EGP_EQP_004", "name" => "Cetro Uas", "description" => "Cetro símbolo de poder con una cabeza de animal en la parte superior y una horquilla en la inferior.", "rarity" => "Raro", "parts" => 13, "points" => 6],
+		["code" => "EGP_EQP_005", "name" => "Heka y Nejej", "description" => "El cayado y el mayal, símbolos del poder real y la fertilidad de la tierra.", "rarity" => "Raro", "parts" => 30, "points" => 6],
+		["code" => "EGP_EST_001", "name" => "Estela de Ra", "description" => "Dios del sol y de la vida con cabeza de halcón peregrino.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_002", "name" => "Estela de Isis", "description" => "Diosa suprema de la magia, la sabiduría y la realeza.", "rarity" => "Común", "parts" => 96, "points" => 1],
+		["code" => "EGP_EST_003", "name" => "Estela de Osiris", "description" => "Dios de la fertilidad y Juez de los Muertos.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_004", "name" => "Estela de Seth", "description" => "Dios del caos y el inframundo con cabeza animal de orejas rectangulares y hocico curvo.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_005", "name" => "Estela de Horus", "description" => "Dios del cielo con cabeza de halcón.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_006", "name" => "Estela de Ptah", "description" => "Dios creador de la artesanía y la arquitectura.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_007", "name" => "Estela de Bastet", "description" => "Diosa protectora del hogar, el amor y la harmonía con cabeza de gato.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_008", "name" => "Estela de Anubis", "description" => "Dios de la muerte con cabeza de chacal.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_009", "name" => "Estela de Hathor", "description" => "Diosa de la maternidad, la música y las artes, pero también la venganza.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_010", "name" => "Estela de Ma'at", "description" => "Diosa alada del orden, la verdad y la justicia.", "rarity" => "Común", "parts" => 96, "points" => 1],
+		["code" => "EGP_EST_011", "name" => "Estela de Thot", "description" => "Dios de la sabiduría, la ciencia y la escritura con cabeza de ibis.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_012", "name" => "Estela de Amón", "description" => "Dios celeste de la creación.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_013", "name" => "Estela de Khnum", "description" => "Dios alfarero y de la creación con cabeza de carnero. Creaba a los humanos con lodo del Nilo.", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_014", "name" => "Estela de Sobek", "description" => "Dios de la fertilidad, la vegetación y creador del Nilo con cabeza de cocodrilo", "rarity" => "Común", "parts" => 94, "points" => 1],
+		["code" => "EGP_EST_015", "name" => "Estela de Jonsu", "description" => "Dios niño de la luna y su luz.", "rarity" => "Común", "parts" => 94, "points" => 1]
 	];
-	excelToInfo($egipt);
+	excelToInfo($egypt);
+
+	$petra = [
+		["code" => "PTR_MON_001", "name" => "Séquel", "description" => "Moneda de bronce acuñada por los nabateos durante el reinado de Areta IV y Shaqilat.", "rarity" => "Común", "parts" => 1, "points" => 1],
+		["code" => "PTR_MON_002", "name" => "Sela", "description" => "Moneda de plata nabatea acuñada por el general Syllaeus que representaba 1/4 de Séquel.", "rarity" => "Común", "parts" => 1, "points" => 1],
+		["code" => "PTR_MON_003", "name" => "Ma'ah", "description" => "Moneda de plata nabatea acuñada por el rey Obodas II que representaba 1/24 de Séquel.", "rarity" => "Común", "parts" => 1, "points" => 1],
+		["code" => "PTR_TES_001", "name" => "Mosaico Maqueronte", "description" => "Mosaico inspirado en el de los baños de la fortaleza de Maqueronte.", "rarity" => "Común", "parts" => 625, "points" => 1],
+		["code" => "PTR_CUE_001", "name" => "Cuenta de cristal", "description" => "Cuentas de cristal transparente.", "rarity" => "Común", "parts" => 1, "points" => 1],
+		["code" => "PTR_CUE_002", "name" => "Cuenta de turquesa", "description" => "Fragmentos de turquesa usados para decorar joyas.", "rarity" => "Común", "parts" => 1, "points" => 1],
+		["code" => "PTR_JOY_001", "name" => "Collar de Jamila", "description" => "Collar hecho con cuentas de de nácar, piedra caliza roja, turquesas y hematita.", "rarity" => "Raro", "parts" => 10, "points" => 5],
+		["code" => "PTR_CER_001", "name" => "Plato decorado", "description" => "Plato cerámico adornado al estilo nabateo.", "rarity" => "Común", "parts" => 20, "points" => 1],
+		["code" => "PTR_CER_002", "name" => "Cuenco decorado", "description" => "Cuenco cerámico adornado con dibujos al estilo nabateo.", "rarity" => "Común", "parts" => 14, "points" => 1],
+		["code" => "PTR_CER_003", "name" => "Olla dos asas", "description" => "Jarra nabatea con dos asas procedente de la ciudad de Petra.", "rarity" => "Raro", "parts" => 22, "points" => 5],
+		["code" => "PTR_CER_004", "name" => "Tubería de agua", "description" => "Tubería cerámica utilizada para transportar el agua largas distancias.", "rarity" => "Infrecuente", "parts" => 23, "points" => 3],
+		["code" => "PTR_EQP_001", "name" => "Arco compuesto", "description" => "Arco utilizado por los nabateos para disparar desde camellos.", "rarity" => "Infrecuente", "parts" => 15, "points" => 3],
+		["code" => "PTR_EQP_002", "name" => "Escudo nabateo", "description" => "Escudo de bronce utilizado por la infantería nabatea.", "rarity" => "Raro", "parts" => 35, "points" => 6],
+		["code" => "PTR_EQP_003", "name" => "Spatha", "description" => "Espada utilizada durante el periodo romano de nabatea.", "rarity" => "Raro", "parts" => 25, "points" => 5],
+		["code" => "PTR_EQP_004", "name" => "Azagaya", "description" => "Lanza pequeña que se arrojaba mediante un palo propulsor.", "rarity" => "Infrecuente", "parts" => 20, "points" => 3],
+		["code" => "PTR_EST_001", "name" => "Betilo Hayyan", "description" => "Piedra sagrada rectangular tallada con rasgos humanos representando a la diosa Hayyan.", "rarity" => "Común", "parts" => 24, "points" => 1],
+		["code" => "PTR_EST_002", "name" => "Betilo Al-Uzza", "description" => "Betilo con ojos estrellados representando a una diosa celeste.", "rarity" => "Común", "parts" => 24, "points" => 1],
+		["code" => "PTR_EST_003", "name" => "Inscripción de Namara", "description" => "Inscripción nabatea en piedra, posiblemente una lápida.", "rarity" => "Común", "parts" => 48, "points" => 1],
+		["code" => "PTR_FRA_001", "name" => "Reloj de sol", "description" => "Reloj de sol tallado de un bloque de arenisca.", "rarity" => "Infrecuente", "parts" => 20, "points" => 3]
+	];
+	excelToInfo($petra);
 
 	echo "<p>Todo registrado correctamente</p>";
 
@@ -109,4 +163,7 @@
 	echo '<h1>Imperios de las arenas</h1>';
 
 	echo '<p>Egipto:</p>';
-	infoToArchaios("EGP", "Egipt");
+	infoToArchaios("EGP", "Egypt");
+
+	echo '<p>Petra:</p>';
+	infoToArchaios("PTR", "Petra");

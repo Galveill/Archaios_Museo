@@ -24,7 +24,7 @@
 			$data[$k]["rarity"] = substr($trea["rarity"], 0, 1);
 			$data[$k]["type"] = substr($trea["code"], 4, 3);
 		}
-		$order = array("MON", "CUE", "JOY", "CER", "EQP", "FRA", "TES");
+		$order = array("MON", "CUE", "JOY", "CER", "EQP", "EST", "FRA", "TES");
 		usort($data, function ($a, $b) use ($order) {
 			$ka = array_search($a['type'], $order);
 			$kb = array_search($b['type'], $order);
@@ -57,6 +57,7 @@
 			"JOY" => "JEWELRY",
 			"CER" => "CERAMIC",
 			"EQP" => "EQUIP",
+			"EST" => "STELE",
 			"FRA" => "FRAGMENT"
 		];
 		$nRare = [
@@ -97,9 +98,12 @@
 			$image: The image path.
 			$wd: The width in pixels to cut of each part.
 			$hg: The height in pixels to cut of each part.
+			$ignone: An array with the ignored sectors. 
 	*/
-	function divideImg($image, $wd, $hg)
+	function divideImg($image, $wd, $hg, $ignore = array())
 	{
+		$num = 1;
+		$ignored = 0;
 		$save = dirname($image);
 		$img = imagecreatefrompng($image);
 		$size = getimagesize($image);
@@ -115,10 +119,14 @@
 					imagesavealpha($res, true);
 					
 					imagecopy($res, $crop, $j * $wd, $i * $hg, 0, 0, $wd, $hg);
-
-					$num = str_pad(1 + $j + ($x * $i), 4, '0', STR_PAD_LEFT);
-					$path = $save . '/' . $num . '.png';
-					imagepng($res, $path);
+					$code = str_pad($num++ - $ignored, 4, '0', STR_PAD_LEFT);
+					$path = $save . '/' . $code . '.png';
+					if(!in_array($num - 1, $ignore))
+					{
+						imagepng($res, $path);
+					}else{
+						$ignored++;
+					}
 					imagedestroy($crop);
 					imagedestroy($res);
 				}

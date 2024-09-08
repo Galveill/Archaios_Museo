@@ -19,6 +19,7 @@ class ExhibitorMaker {
 		"JOY" => "Joyería",
 		"CER" => "Cerámica",
 		"EQP" => "Equipamiento",
+		"EST" => "Estelas",
 		"FRA" => "Otros"
 	];
 
@@ -114,16 +115,11 @@ class ExhibitorMaker {
 			if(FULL_IMAGES || $full) { $parts = ["0001"]; }
 			$size = getimagesize($path . '0001.png');
 		}
-		$extra = '';
-		if($treasure['type'] == 'TES')
-		{
-			$extra = 'document.getElementById("card-' . $treasure['code'] . '").style = "--tes-wd: ' . $size[0] . 'px;";';
-		}
 		$script = 
 					'<script>' .
 						'ens = new Ensambler();' . 
 						'ens.create("' . $treasure['code'] . '", ' . json_encode($parts) . ', ' . $size[0] . ', ' . $size[1] . ', ' . json_encode(file_exists($path . 'base.png')) . ', ' . json_encode(file_exists($path . 'upper.png')) . ');' .
-						$extra .
+						'document.getElementById("card-' . $treasure['code'] . '").style = "--tre-wd: ' . $size[0] . 'px;--tre-he: ' . $size[1] . 'px;";' .
 					'</script>';
 		
 		return $script;

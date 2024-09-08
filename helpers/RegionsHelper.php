@@ -21,6 +21,11 @@
 				"name" => "Egipto",
 				"description" => "El Antiguo Egipto.",
 				"exp" => "arenas"
+			],
+			"PTR"=> [
+				"name" => "Petra",
+				"description" => "El reino nabateo.",
+				"exp" => "arenas"
 			]
 		];
 
@@ -32,16 +37,53 @@
 		];
 
 		/*
-			Returns the regions descripcion to show.
+			Returns the base regions description to show.
 			Return:
 				[code] Name - Description <br> for each region.
 		*/
-		public static function getRegionsDesc()
+		public static function getBaseRegionsDesc()
 		{
 			$reg = '';
 			foreach (RegionsHelper::REGIONS as $key => $data) {
-				$reg .= '[' . $key . '] ' . $data["name"] . ' - ' . $data["description"] . '<br>';
+				if(!array_key_exists("exp", $data))
+				{
+					$reg .= '[' . $key . '] ' . $data["name"] . ' - ' . $data["description"] . '<br>';
+				}
 			}
+			return $reg;
+		}
+
+		/*
+			Returns the sections with the expansion regions icon and description to show.
+			Return:
+				[code] Name - Description <br> for each region.
+		*/
+		public static function getExpRegionsDesc()
+		{
+			$act = '';
+			$reg = '';
+			foreach (RegionsHelper::REGIONS as $key => $data) {
+				if(array_key_exists("exp", $data))
+				{
+					if($act != $data['exp'])
+					{
+						if($act != '') { $reg .= '</div></div>'; }
+						$reg .= '<div class="basedivider"></div>';
+						$act = $data['exp'];
+						$exp = RegionsHelper::EXPANSIONS[$act];
+						$reg .=
+							'<div class="dual">' .
+								'<img src="/Museo/assets/icon/' . $act . '.svg" alt="' . $exp['name'] . '">' .
+								'<div>' .
+									'<h5>' . $exp['name'] . '</h5>' .
+									'<p>' . $exp['description'] . '</p>' .
+									'<hr>';
+
+					}
+					$reg .= '[' . $key . '] ' . $data["name"] . ' - ' . $data["description"] . '<br>';
+				}
+			}
+			$reg .= '</div></div>';
 			return $reg;
 		}
 

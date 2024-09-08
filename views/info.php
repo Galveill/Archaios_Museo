@@ -6,6 +6,11 @@
 	$maker->makeOne($params);
 	$trea = $model->getFullTreasureInfo($params);
 
+	$band = '';
+	$region = substr($params, 0, 3);
+	$band = HTMLHelper::regionBand($region, 'I');
+	echo $band;
+
 	if (count($trea) > 0) {
 		$total = 0;
 		$unit = 0;
@@ -14,14 +19,9 @@
 		$names = '';
 		$user = array();
 
-		$band = '';
-
 		foreach ($trea as $treasure) {
 			if($act == '') {
 				$act = $treasure['code'];
-				$region = substr($treasure['code'], 0, 3);
-				$band = HTMLHelper::regionBand($region, 'I');
-				echo $band;
 			}
 			if($act != $treasure['code'])
 			{
