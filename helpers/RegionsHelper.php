@@ -26,6 +26,11 @@
 				"name" => "Petra",
 				"description" => "El reino nabateo.",
 				"exp" => "arenas"
+			],
+			"SUM"=> [
+				"name" => "Sumeria",
+				"description" => "Sumeria, Mesopotamia y las culturas que lo conformaron.",
+				"exp" => "arenas"
 			]
 		];
 

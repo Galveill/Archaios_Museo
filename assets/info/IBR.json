@@ -189,6 +189,42 @@
         "type": "EST"
     },
     {
+        "code": "IBR_FRA_001",
+        "name": "\u00cddolo cil\u00edndrico oculado",
+        "description": "Estatuilla con grandes ojos tallada en alabastro que representa a una deidad.",
+        "rarity": "I",
+        "parts": 4,
+        "points": 3,
+        "type": "FRA"
+    },
+    {
+        "code": "IBR_FRA_002",
+        "name": "\u00cddolo oculado simple",
+        "description": "Estatuilla oculada de piedra tallada con simples rasgos representando una deidad.",
+        "rarity": "I",
+        "parts": 3,
+        "points": 3,
+        "type": "FRA"
+    },
+    {
+        "code": "IBR_FRA_003",
+        "name": "\u00cddolo de Garrovillas",
+        "description": "Placa antropom\u00f3rfica y oculada tallada en piedra que representa a una deidad antigua.",
+        "rarity": "R",
+        "parts": 4,
+        "points": 6,
+        "type": "FRA"
+    },
+    {
+        "code": "IBR_FRA_004",
+        "name": "\u00cddolo de placa",
+        "description": "Placa de pizarra, trapezoidal, oculada y tallada con motivos geom\u00e9tricos.",
+        "rarity": "I",
+        "parts": 3,
+        "points": 2,
+        "type": "FRA"
+    },
+    {
         "code": "IBR_TES_001",
         "name": "Mosaico punteado",
         "description": "Mosaico punteado en dos colores creando formas geom\u00e9tricas. Inspirado en el de la Casa de Likine.",

@@ -52,7 +52,11 @@
 		["code" => "IBR_EQP_002", "name" => "Espada de antenas", "description" => "Espada celtíbera de la Edad de Bronce con un característico mango terminado en dos espirales o antenas.", "rarity" => "Infrecuente", "parts" => 25, "points" => 3],
 		["code" => "IBR_EQP_003", "name" => "Soliferrum", "description" => "Lanza íbera hecha de hierro en su totalidad para una alta penetración de las protecciones del enemigo.", "rarity" => "Raro", "parts" => 10, "points" => 6],
 		["code" => "IBR_EQP_004", "name" => "Cardiophylax", "description" => "Armadura primitiva hecha de una plancha de bronze que cubre el corazón y unas correas de cuero que la sujetan.", "rarity" => "Raro", "parts" => 8, "points" => 6],
-		["code" => "IBR_EST_001", "name" => "Estela funeraria", "description" => "Estela de piedra tallada con inscripciones que se ponía en los enterramientos nobles.", "rarity" => "Infrecuente", "parts" => 48, "points" => 5]
+		["code" => "IBR_EST_001", "name" => "Estela funeraria", "description" => "Estela de piedra tallada con inscripciones que se ponía en los enterramientos nobles.", "rarity" => "Infrecuente", "parts" => 48, "points" => 5],
+		["code" => "IBR_FRA_001", "name" => "Ídolo cilíndrico oculado", "description" => "Estatuilla con grandes ojos tallada en alabastro que representa a una deidad.", "rarity" => "Infrecuente", "parts" => 4, "points" => 3],
+		["code" => "IBR_FRA_002", "name" => "Ídolo oculado simple", "description" => "Estatuilla oculada de piedra tallada con simples rasgos representando una deidad.", "rarity" => "Infrecuente", "parts" => 3, "points" => 3],
+		["code" => "IBR_FRA_003", "name" => "Ídolo de Garrovillas", "description" => "Placa antropomórfica y oculada tallada en piedra que representa a una deidad antigua.", "rarity" => "Raro", "parts" => 4, "points" => 6],
+		["code" => "IBR_FRA_004", "name" => "Ídolo de placa", "description" => "Placa de pizarra, trapezoidal, oculada y tallada con motivos geométricos.", "rarity" => "Infrecuente", "parts" => 3, "points" => 2]
 	];
 	excelToInfo($iberia);
 
@@ -148,6 +152,27 @@
 	];
 	excelToInfo($petra);
 
+	$sumeria = [
+		["code" => "SUM_MON_001", "name" => "Siclo de plata", "description" => "Moneda de plata con un peso específico para el trueque.", "rarity" => "Común", "parts" => 1, "points" => 1],
+		["code" => "SUM_MON_002", "name" => "Siclo de oro", "description" => "Moneda de oro con un peso específico para el trueque.", "rarity" => "Común", "parts" => 1, "points" => 1],
+		["code" => "SUM_CUE_001", "name" => "Cuentas de cornalina", "description" => "Cornalina tallada para adornar y confeccionar joyas.", "rarity" => "Común", "parts" => 1, "points" => 1],
+		["code" => "SUM_JOY_001", "name" => "Collar de hojas", "description" => "Collar de lapislázuli con hojas de oro de la tumba de la reina Puabi", "rarity" => "Raro", "parts" => 5, "points" => 6],
+		["code" => "SUM_JOY_002", "name" => "Collar de cuentas", "description" => "Collar de grandes esferas de lapislázuli y oro de la reina Puabi.", "rarity" => "Infrecuente", "parts" => 7, "points" => 3],
+		["code" => "SUM_JOY_003", "name" => "Anillo sello", "description" => "Anillo de oro y rubíes que servía como sello personal.", "rarity" => "Infrecuente", "parts" => 3, "points" => 3],
+		["code" => "SUM_CER_001", "name" => "Vaso Ubaid", "description" => "Vaso cerámico del periodo Ubaid pre sumerio con líneas oscuras sobre fondo claro.", "rarity" => "Común", "parts" => 15, "points" => 1],
+		["code" => "SUM_CER_002", "name" => "Jarrón Ubaid", "description" => "Jarrón en dos colores típico del periodo Ubaid.", "rarity" => "Común", "parts" => 35, "points" => 1],
+		["code" => "SUM_CER_003", "name" => "Plato Ubaid", "description" => "Plato con íbices del periodo Ubaid.", "rarity" => "Infrecuente", "parts" => 14, "points" => 2],
+		["code" => "SUM_CER_004", "name" => "Jarra Halaf", "description" => "Jarra cerámica del periodo Halaf, decorada con formas geométricas.", "rarity" => "Común", "parts" => 14, "points" => 1],
+		["code" => "SUM_CER_005", "name" => "Ídolo de los ojos", "description" => "Figura de terracota oculada de alguna deidad del periodo Uruk.", "rarity" => "Raro", "parts" => 12, "points" => 6],
+		["code" => "SUM_CER_006", "name" => "Clavo de fundación", "description" => "Clavo de arcilla que se ponían en los muros de los templos para constatar su pertenencia a la deidad.", "rarity" => "Común", "parts" => 9, "points" => 1],
+		["code" => "SUM_CER_007", "name" => "Planisferio sumerio", "description" => "Tablilla que describe con precisión la posición de las estrellas.", "rarity" => "Raro", "parts" => 10, "points" => 6],
+		["code" => "SUM_EST_001", "name" => "Estela de los buitres", "description" => "Incripciones conmemorativas de la victoria militar del rey Eannatum.", "rarity" => "Común", "parts" => 96, "points" => 1],
+		["code" => "SUM_EST_002", "name" => "Epopeya de Gilgamesh", "description" => "Tablilla que contiene parte de la obra épica que narra la historia del rey Gilgamesh, dividida en un total de 12.", "rarity" => "Común", "parts" => 32, "points" => 1],
+		["code" => "SUM_EST_003", "name" => "Código de Hammurabi", "description" => "Enorme estela con las leyes de la antigua Mesopotamia basadas en la ley del Talión.", "rarity" => "Común", "parts" => 48, "points" => 1],
+		["code" => "SUM_EST_004", "name" => "Estela de Ishtar", "description" => "Diosa alada del amor, la guerra, la vida y la fertilidad.", "rarity" => "Común", "parts" => 96, "points" => 1]
+	];
+	excelToInfo($sumeria);
+
 	echo "<p>Todo registrado correctamente</p>";
 
 	echo '<p>Grecia:</p>';
@@ -167,3 +192,6 @@
 
 	echo '<p>Petra:</p>';
 	infoToArchaios("PTR", "Petra");
+
+	echo '<p>Sumeria:</p>';
+	infoToArchaios("SUM", "Sumeria");

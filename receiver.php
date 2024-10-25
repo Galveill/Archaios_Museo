@@ -3,7 +3,7 @@
 	require_once("./models/TreasureModel.php");
 	/* JSON format:
 			uid: usercode
-			codes:
+			data:
 				Códigos.
 
 	*/
@@ -15,7 +15,7 @@
 	if(isset($fdata))
 	{
 		$usercode = $fdata['uid'] ?? -1;
-		$data = $fdata['codes'];
+		$data = $fdata['data'];
 
 		if($usercode == -1 || $usercode == "")
 		{
@@ -63,16 +63,16 @@
 	$actTime = date("Y-m-d H:i:s");
 	if($fdata === null)
 	{
-		file_put_contents('./data/' . GAME . '/register.log', '[' . $actTime . '] ERROR. Datos nulos.' . PHP_EOL, FILE_APPEND);
+		file_put_contents('./data/logs/' . GAME . '/register.log', '[' . $actTime . '] ERROR. Datos nulos.' . PHP_EOL, FILE_APPEND);
 	}else{
 		$content = "";
 		switch ($msg) {
 			case CORRECT:
-				$content = 'UID: ' . $fdata['uid'] . ' {' . implode(", ", $fdata['codes']) . '}';
+				$content = 'UID: ' . $fdata['uid'] . ' {' . implode(", ", $fdata['data']) . '}';
 			break;
 			case BLOCKED_USER:
 				$content = ' Intento de acceso por parte del usuario bloqueado: ' . $fdata['uid'] . '.';
 			break;
 		}
-		file_put_contents('./data/' . GAME . '/register.log', '[' . $actTime . '] ' . $content . PHP_EOL, FILE_APPEND);
+		file_put_contents('./data/logs/' . GAME . '/register.log', '[' . $actTime . '] ' . $content . PHP_EOL, FILE_APPEND);
 	}
