@@ -1,4 +1,7 @@
 <?php
+	//Establece el nombre del servidor y parte de la ruta de los archivos.
+	define('SYSTEM_NAME', "Museo");
+
 	define('CORRECT', 1);
 	define('ERROR_USER', 2);
 	define('ERROR_GROUP', 3);
