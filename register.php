@@ -169,7 +169,9 @@
 		["code" => "SUM_EST_001", "name" => "Estela de los buitres", "description" => "Incripciones conmemorativas de la victoria militar del rey Eannatum.", "rarity" => "Común", "parts" => 96, "points" => 1],
 		["code" => "SUM_EST_002", "name" => "Epopeya de Gilgamesh", "description" => "Tablilla que contiene parte de la obra épica que narra la historia del rey Gilgamesh, dividida en un total de 12.", "rarity" => "Común", "parts" => 32, "points" => 1],
 		["code" => "SUM_EST_003", "name" => "Código de Hammurabi", "description" => "Enorme estela con las leyes de la antigua Mesopotamia basadas en la ley del Talión.", "rarity" => "Común", "parts" => 48, "points" => 1],
-		["code" => "SUM_EST_004", "name" => "Estela de Ishtar", "description" => "Diosa alada del amor, la guerra, la vida y la fertilidad.", "rarity" => "Común", "parts" => 96, "points" => 1]
+		["code" => "SUM_EST_004", "name" => "Estela de Ishtar", "description" => "Diosa alada del amor, la guerra, la vida y la fertilidad.", "rarity" => "Común", "parts" => 96, "points" => 1],
+		["code" => "SUM_EST_005", "name" => "Estela de Marduk", "description" => "Dios soberano de la humanidad representado como un dragón.", "rarity" => "Común", "parts" => 96, "points" => 1],
+		["code" => "SUM_EST_006", "name" => "Estela de Nabu", "description" => "Dios alado de la escritura.", "rarity" => "Común", "parts" => 96, "points" => 1]
 	];
 	excelToInfo($sumeria);
 

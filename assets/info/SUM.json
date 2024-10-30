@@ -151,5 +151,23 @@
         "parts": 96,
         "points": 1,
         "type": "EST"
+    },
+    {
+        "code": "SUM_EST_005",
+        "name": "Estela de Marduk",
+        "description": "Dios soberano de la humanidad representado como un drag\u00f3n.",
+        "rarity": "C",
+        "parts": 96,
+        "points": 1,
+        "type": "EST"
+    },
+    {
+        "code": "SUM_EST_006",
+        "name": "Estela de Nabu",
+        "description": "Dios alado de la escritura.",
+        "rarity": "C",
+        "parts": 96,
+        "points": 1,
+        "type": "EST"
     }
 ]

@@ -13,7 +13,7 @@
 	define('GAME', 'prueba');
 	
 	//Establece el modo pruebas, admitiendo o no al usuario -=Pruebas=-
-	define('TEST', false);
+	define('TEST', true);
 	//Establece el modo de muestra de todas las imágenes de los tesoros.
 	define('FULL_IMAGES', true);
 	//Modo de seguridad. False blacklist, true whitelist.

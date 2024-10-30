@@ -7,7 +7,7 @@
         Comment after each use.
     */
 
-    //divideImg('./assets/img/SUM/EST/004/full.png', 16, 16);
+    //divideImg('./assets/img/SUM/EST/006/full.png', 16, 16);
     //divideImg('./assets/img/PTR/EST/002/full.png', 16, 16, array(1, 2, 3, 4, 29, 30, 31, 32));
 
     $model = TreasureModel::getInstance();
