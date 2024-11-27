@@ -172,7 +172,10 @@
 		["code" => "SUM_EST_004", "name" => "Estela de Ishtar", "description" => "Diosa alada del amor, la guerra, la vida y la fertilidad.", "rarity" => "Común", "parts" => 96, "points" => 1],
 		["code" => "SUM_EST_005", "name" => "Estela de Marduk", "description" => "Dios soberano de la humanidad representado como un dragón.", "rarity" => "Común", "parts" => 96, "points" => 1],
 		["code" => "SUM_EST_006", "name" => "Estela de Nabu", "description" => "Dios alado de la escritura.", "rarity" => "Común", "parts" => 96, "points" => 1],
-		["code" => "SUM_EST_008", "name" => "Estela de Enki", "description" => "El señor de la tierra, dios que creó a los hombres y les enseñó los oficios y artes.", "rarity" => "Común", "parts" => 96, "points" => 1]
+		["code" => "SUM_EST_008", "name" => "Estela de Enki", "description" => "El señor de la tierra, dios que creó a los hombres y les enseñó los oficios y artes.", "rarity" => "Común", "parts" => 96, "points" => 1],
+		["code" => "SUM_FRA_001", "name" => "Cilindro-sello", "description" => "Cilindro de piedra tallado utilizado para estampar en arcilla un patrón.", "rarity" => "Infrecuente", "parts" => 10, "points" => 3],
+		["code" => "SUM_FRA_002", "name" => "Vaso de Warka", "description" => "Enorme vasija del periodo Uruk tallada en alabastro que narra el culto a los dioses.", "rarity" => "Raro", "parts" => 12, "points" => 5],
+		["code" => "SUM_FRA_003", "name" => "Vaso de Entemena", "description" => "Vaso de plata ofrecido al dios de la lluvia.", "rarity" => "Raro", "parts" => 18, "points" => 5]
 	];
 	excelToInfo($sumeria);
 
@@ -197,4 +200,4 @@
 	infoToArchaios("PTR", "Petra");
 
 	echo '<p>Sumeria:</p>';
-	infoToArchaios("SUM", "Sumeria");
+	infoToArchaios("SUM", "Sumer");

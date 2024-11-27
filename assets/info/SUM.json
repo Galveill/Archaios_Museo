@@ -178,5 +178,32 @@
         "parts": 96,
         "points": 1,
         "type": "EST"
+    },
+    {
+        "code": "SUM_FRA_001",
+        "name": "Cilindro-sello",
+        "description": "Cilindro de piedra tallado utilizado para estampar en arcilla un patr\u00f3n.",
+        "rarity": "I",
+        "parts": 10,
+        "points": 3,
+        "type": "FRA"
+    },
+    {
+        "code": "SUM_FRA_002",
+        "name": "Vaso de Warka",
+        "description": "Enorme vasija del periodo Uruk tallada en alabastro que narra el culto a los dioses.",
+        "rarity": "R",
+        "parts": 12,
+        "points": 5,
+        "type": "FRA"
+    },
+    {
+        "code": "SUM_FRA_003",
+        "name": "Vaso de Entemena",
+        "description": "Vaso de plata ofrecido al dios de la lluvia.",
+        "rarity": "R",
+        "parts": 18,
+        "points": 5,
+        "type": "FRA"
     }
 ]
