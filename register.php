@@ -179,6 +179,11 @@
 	];
 	excelToInfo($sumeria);
 
+	$rapanui = [
+		
+	];
+	excelToInfo($rapanui);
+
 	echo "<p>Todo registrado correctamente</p>";
 
 	echo '<p>Grecia:</p>';
@@ -204,3 +209,6 @@
 
 	echo '<hr>';
 	echo '<h1>El rugir de las olas</h1>';
+
+	echo '<p>Rapa Nui:</p>';
+	infoToArchaios("NUI", "RapaNui");

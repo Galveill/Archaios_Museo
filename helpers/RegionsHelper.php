@@ -38,6 +38,10 @@
 			"arenas" => [
 				"name" => "Imperios de las arenas",
 				"description" => "Regiones de antiguos imperios erigidos en terreno desértico."
+			],
+			"olas" => [
+				"name" => "El rugir de las olas",
+				"description" => "Antiguas civilizaciones que surgieron de las islas."
 			]
 		];
 
