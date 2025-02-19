@@ -31,6 +31,11 @@
 				"name" => "Sumeria",
 				"description" => "Sumeria, Mesopotamia y las culturas que lo conformaron.",
 				"exp" => "arenas"
+			],
+			"NUI"=> [
+				"name" => "Rapa Nui",
+				"description" => "Los antiguos habitantes de la Isla de Pascua.",
+				"exp" => "olas"
 			]
 		];
 
