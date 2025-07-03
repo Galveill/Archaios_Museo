@@ -13,25 +13,22 @@
 	$js = null;
 
 	$ruta = substr(htmlspecialchars($_SERVER['REQUEST_URI']), (strlen(SYSTEM_NAME) + 2));
-	if($ruta != '')
+	if($ruta != '' && preg_match('/^[a-zA-Z0-9_\/]+$/', $ruta))
 	{
-		if (preg_match('/^[a-zA-Z0-9_\/]+$/', $ruta))
+		if(file_exists('./assets/info/' . $ruta . '.json'))
 		{
-			if(file_exists('./assets/info/' . $ruta . '.json'))
+			$page = $ruta;
+		}else{
+			$view = './views/' . $ruta . '.php';
+			if(!file_exists($view))
 			{
-				$page = $ruta;
-			}else{
-				$view = './views/' . $ruta . '.php';
-				if(!file_exists($view))
+				if(substr($ruta, 0, 4) == 'info')
 				{
-					if(substr($ruta, 0, 4) == 'info')
-					{
-						$view = './views/info.php';
-						$params = substr($ruta, 5);
-						$css = array('info');
-					}else{
-						$view = null;
-					}
+					$view = './views/info.php';
+					$params = substr($ruta, 5);
+					$css = array('info');
+				}else{
+					$view = null;
 				}
 			}
 		}
